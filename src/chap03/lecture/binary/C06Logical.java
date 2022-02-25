@@ -40,5 +40,16 @@ public class C06Logical {
 		
 		System.out.println((i > 0) & (i++ > 0));
 		System.out.println(i);
+		
+		System.out.println((i < 0) & (i++ < 0)); // short circuit xxxxxxxxx
+		System.out.println(i);
+		
+		// ^ (XOR)
+		// 양변이 다를 때만 true, 같으면 false
+		System.out.println("^ (XOR)");
+		System.out.println(true ^ true); // false
+		System.out.println(true ^ false); // true
+		System.out.println(false ^ true); // true
+		System.out.println(true ^ false); // false
 	}
 }
