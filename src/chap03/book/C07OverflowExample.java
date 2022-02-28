@@ -1,4 +1,4 @@
-package chap03.bookk;
+package chap03.book;
 
 public class C07OverflowExample {
 	public static void main(String[] args) {
