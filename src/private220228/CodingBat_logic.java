@@ -185,6 +185,80 @@ public class CodingBat_logic {
 			    return false;
 			  }
 			}
+		  
+		  // old35 (1)
+		  public boolean old35(int n) {
+			  return (n % 3 == 0) ^ (n % 5 == 0);
+			}
+		  
+		  // old35 (2)
+		  public boolean old35(int n) {
+			  int i = n % 3;
+			  int j = n % 5;
+			  if (i == 0 && j == 0){
+			    return false;
+			  } else if(i == 0 || j == 0){
+			    return true;
+			  } else {
+			    return false;
+			  }
+			}
 
+		  // nearTen (1)
+		  public boolean nearTen(int num) {
+			  if ((num % 10 <= 2) || (num % 10 >= 8)) {
+			    return true;
+			  } else {
+			    return false;
+			  }
+			}
+		  
+		  // nearTen (2)
+		  public boolean nearTen(int num) {
+			  int i = (num + 2) % 10;
+			  int j = num % 10;
+			  if (i <= 1 || j <= 2){
+			    return true;
+			  } else {
+			    return false;
+			  }
+			}
+		  
+		  // teenSum
+		  public int teenSum(int a, int b) {
+			  int sum = a + b;
+			  
+			  if ((a >= 13 && a <= 19) || (b >= 13 && b <= 19)) { // sum에 조건식을 주는게 아님 문제 잘못 해석함
+			    return 19;
+			  } else {
+			    return sum;
+			  }
+			}
+		  
+		  // answerCell (1)
+		  public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
+			  if (isAsleep) {
+			    return false;
+			  } else if (isMorning && !isMom && !isAsleep) {
+			    return false;
+			  } else if (!isMorning && !isMom && isAsleep) {
+			    return false;
+			  } else {
+			    return true;
+			}
+			}
+		  
+		  // answerCell (2)
+		  public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
+			  if (isAsleep) {
+			    return false;
+			  } else if (isMorning && !isMom ) {
+			    return false;
+			  } else if ((!isMorning)||(isMorning && isMom)) {
+			    return true;
+			  } else {
+			    return false;
+			}
+			}
 	}
 }
