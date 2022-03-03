@@ -13,6 +13,7 @@ public class Exercise061 {
 			}
 			System.out.println();
 		}
+		System.out.println();
 		
 		// *****
 		// ****
@@ -26,7 +27,7 @@ public class Exercise061 {
 			}
 			System.out.println();
 		}
-		
+		System.out.println();
 		
 		// *****
 		//  ****
@@ -48,7 +49,7 @@ public class Exercise061 {
 		    
 		    System.out.println("");
 		}
-		
+		System.out.println();
 		
 		
 		//     *
