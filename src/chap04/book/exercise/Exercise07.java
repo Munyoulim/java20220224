@@ -17,24 +17,48 @@ public class Exercise07 {
 			System.out.println("------------------");
 			System.out.println("선택>");
 			
-			int number = scanner.nextInt();
-			int money = 0;
+//			int number = scanner.nextInt();
+//			int money = 0; //
+//			
+//			if (number == 1) {
+//				System.out.println("예금액>");
+//				money = scanner.nextInt(); //
+//				balance += money; //
+//				balance += scanner.nextInt();
+//				
+//			} else if (number == 2) {
+//				System.out.println("출금액>");
+//				money = scanner.nextInt(); //
+//				balance -= money; //
+//				balance -= scanner.nextInt();
+//				
+//			} else if (number == 3) {
+//				System.out.println("잔고>" + balance);
+//				
+//			} else {
+//				run = false;
 			
-			if (number == 1) {
-				System.out.println("예금액>");
-				money = scanner.nextInt();
-				balance += money;
-				
-			} else if (number == 2) {
-				System.out.println("출금액>");
-				money = scanner.nextInt();
-				balance -= money;
-				
-			} else if (number == 3) {
+			int menu = scanner.nextInt();
+
+			switch (menu) {
+			case 1:
+//				System.out.println("###예금###");
+				System.out.print("예금액>");
+				balance += scanner.nextInt();
+				break;
+			case 2:
+//				System.out.println("###출금###");
+				System.out.print("출금액>");
+				balance -= scanner.nextInt();
+				break;
+			case 3:
+//				System.out.println("###잔고###");
 				System.out.println("잔고>" + balance);
-				
-			} else {
+				break;
+			case 4:
+//				System.out.println("###종료###");
 				run = false;
+				break;
 			}
 		}
 		
