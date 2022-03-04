@@ -1,4 +1,4 @@
-package private220303;
+package CodingBat;
 
 public class Codingbat_array2 {
 	public static void main(String[] args) {

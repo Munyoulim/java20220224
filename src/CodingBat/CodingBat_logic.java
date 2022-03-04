@@ -1,4 +1,4 @@
-package private220228;
+package CodingBat;
 
 public class CodingBat_logic {
 
