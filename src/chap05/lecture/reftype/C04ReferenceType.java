@@ -3,7 +3,7 @@ package chap05.lecture.reftype;
 public class C04ReferenceType {
 	public static void main(String[] args) {
 		int[] arr1;
-		arr1 = new int[] { 8, 2, 1, -1, 0 };
+		arr1 = new int[] { 8, 2, 1, -1, 0 }; // new : 새로운 공간 마련 (heap 영역에)
 		
 		int[] arr2;
 		arr2 = arr1;

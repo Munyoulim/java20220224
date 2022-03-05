@@ -9,6 +9,6 @@ public class C01ReferenceType {
 		s1 = "hello";
 		
 		int i2 = 5;
-		String i2 = "java";
+		String s2 = "java";
 	}
 }

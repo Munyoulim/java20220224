@@ -44,10 +44,9 @@ public class C04Array {
 		
 		System.out.println("3x4 행렬 탐색");
 		for (int i = 0; i < arr2.length; i++) {
-			for (int j = 0; j < arr2.length; j++) {
-				
+			for (int j = 0; j < arr2[i].length; j++) {
+				System.out.println(arr2[i][j]);
 			}
 		}
 	}
-	
 }
