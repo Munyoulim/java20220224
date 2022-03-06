@@ -21,8 +21,8 @@ public class Exercise061 {
 		// **
 		// *
 		
-		for (int a = 1; a <= 6; a++) {
-			for (int b = 6; b >= a; b--) {
+		for (int i = 0; i < 5; i++) {
+			for (int j = 5; j > i; j--) {
 				System.out.print("*");
 			}
 			System.out.println();
@@ -35,15 +35,15 @@ public class Exercise061 {
 		//    **
 		//     *
 		
-		for(int c = 1; c <= 5; c++) {
+		for(int i = 1; i <= 5; i++) {
 
 		    // 공백 for문
-		    for(int d = 1; d < c; d++) {
+		    for(int j = 1; j < i; j++) {
 		        System.out.print(" ");
 		    }
 		    
 		    // 별 for문
-		    for(int e = 5; e >= c; e--) {
+		    for(int k = 5; k >= i; k--) {
 		        System.out.print("*");
 		    }
 		    
@@ -58,13 +58,13 @@ public class Exercise061 {
 		//  ****
 		// *****
 		
-		for (int f = 0; f < 5; f++) {
+		for (int i = 0; i < 5; i++) {
 			// 공백 for문
-			for (int j = 0; j < (4 - f); j++) {
+			for (int j = 0; j < (4 - i); j++) {
 				System.out.print(" ");
 			}
 			// 별 for문
-			for (int k = 0; k < (f + 1); k++) {
+			for (int k = 0; k < (i + 1); k++) {
 				System.out.print("*");
 			}
 			System.out.println("");

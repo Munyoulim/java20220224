@@ -22,8 +22,8 @@ public class C04Array {
 		// 
 		// 3행 4열 행력
 		int[][] arr2 = new int[3][4];
-		System.out.println(arr2.length);
-		System.out.println(arr2[0].length);
+		System.out.println(arr2.length); // arr2의 길이
+		System.out.println(arr2[0].length); // arr2안에 있는 배열의 길이
 		System.out.println(arr2[1].length);
 		System.out.println(arr2[2].length);
 		
