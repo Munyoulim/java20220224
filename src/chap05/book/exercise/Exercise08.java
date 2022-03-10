@@ -9,18 +9,17 @@ public class Exercise08 {
 		
 		int count = 0;
 		
-		for (int i = 0; i < array.length; i++) {
-			for (int j = 0; j < array[i].length; j++) {
-				sum += array[i][j];
-				count++;
-			}
-//			for (int[] row : array) {
-//				for (int n : row) {
-//					sum += n; 
-//					count++;
-//				}
+//		for (int i = 0; i < array.length; i++) {
+//			for (int j = 0; j < array[i].length; j++) {
+//				sum += array[i][j];
+//				count++;
 //			}
-		}
+			for (int[] item : array) {
+				for (int num : item) {
+					sum += num; 
+					count++;
+				}
+			}
 		avg = (double)sum / count;
 		
 		System.out.println("sum : " + sum);
