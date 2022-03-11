@@ -1,4 +1,4 @@
-package private220224;
+package Private;
 
 public class pyramidstar {
 	public static void main(String[] args) {

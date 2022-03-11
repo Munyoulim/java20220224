@@ -1,4 +1,4 @@
-package private220303;
+package Private;
 
 import java.util.Scanner;
 

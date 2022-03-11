@@ -1,4 +1,4 @@
-package private220224;
+package Private;
 
 public class Star {
 	public static void main(String[] args) {

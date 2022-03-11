@@ -1,4 +1,4 @@
-package private220306;
+package Private;
 
 public class Forstar {
 	public static void main(String[] args) {

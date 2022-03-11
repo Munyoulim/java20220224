@@ -1,4 +1,4 @@
-package private220303;
+package Private;
 
 public class Array01 {
 	public static void main(String[] args) {
