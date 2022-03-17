@@ -15,4 +15,5 @@ public class Child extends Parent {
 	public int getStudentNo() {
 		return studentNo;
 	}
+	
 }
