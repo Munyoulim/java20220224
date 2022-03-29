@@ -1,6 +1,6 @@
 package CodingBat;
 
-public class CodingBat_warmup {
+public class Warmup {
 		
 	
 		// sleepIn

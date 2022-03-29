@@ -1,6 +1,6 @@
 package CodingBat;
 
-public class Codingbat_array2 {
+public class Array2 {
 	public static void main(String[] args) {
 		
 		// sum67

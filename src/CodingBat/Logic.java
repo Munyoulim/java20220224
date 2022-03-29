@@ -1,6 +1,6 @@
 package CodingBat;
 
-public class CodingBat_logic {
+public class Logic {
 
 		// cigarParty
 		public boolean cigarParty(int cigars, boolean isWeekend) {
